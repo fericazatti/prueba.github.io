@@ -78,6 +78,47 @@
             <td>Cell</td>
           </tr>
         </tbody>
+        <!-- Custom css that makes this example work like it does: -->
+<style type="text/css">
+    .scrollspy-example {
+      position: relative;
+      height: 200px;
+      margin-top: .5rem;
+      overflow: auto;
+    }
+    </style>
+    <nav id="navbar-scrollspy" class="navbar navbar-light bg-light px-3">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#fat">@fat</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mdo">@mdo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#one">one</a></li>
+            <li><a class="dropdown-item" href="#two">two</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#three">three</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-scrollspy" data-bs-offset="0" tabindex="0" class="scrollspy-example">
+      <h4 id="fat">@fat</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corrupti perspiciatis distinctio, officia ipsam debitis animi hic? Iusto autem est accusantium quas recusandae consectetur eligendi at et praesentium placeat dignissimos, quasi ipsum neque explicabo non, maxime nemo reprehenderit corporis doloribus amet ab omnis dolorum, debitis ipsam? Nulla veritatis, fugiat cum possimus minima reiciendis eos exercitationem numquam a officia sunt voluptatibus. Ducimus et porro non necessitatibus quae possimus voluptate libero ratione, iure sint! Aspernatur autem saepe doloribus perferendis eos eaque quo ex. Reiciendis neque quidem odio, beatae, similique eaque iusto voluptatem quae eveniet unde accusamus iure pariatur consequatur distinctio qui error?</p>
+      <h4 id="mdo">@mdo</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam corporis esse fugiat alias, aut libero assumenda saepe neque doloribus ducimus sit pariatur repudiandae sequi sed dolore culpa vero itaque! Iure quos rerum odit, ducimus culpa quidem nisi voluptas possimus accusantium iusto, harum hic vel? Unde illum, odit repellendus impedit magni dolores. Minus sunt laboriosam quisquam eligendi cumque aliquam quas pariatur minima ut ea odio ipsum accusamus amet nostrum, consectetur ullam deleniti esse debitis repellat harum nemo illum saepe. Molestias autem inventore libero nam aliquam molestiae, aliquid temporibus magnam quod iste ut laudantium, adipisci illo enim mollitia cupiditate reiciendis veniam pariatur.</p>
+      <h4 id="one">one</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates rem quidem ea exercitationem adipisci non a quaerat ducimus reprehenderit officiis ad aliquid laborum tempora repellendus cupiditate, perferendis officia inventore unde temporibus. Assumenda iste maiores vitae ea quibusdam omnis vero porro doloremque. Dolore officia cumque ad consectetur harum asperiores, expedita sit dolores dolorum laboriosam laudantium dolor repellendus, tempora, aliquam omnis quis itaque totam laborum quaerat. Iure tempora ab vero. Doloribus maxime distinctio dignissimos alias est error incidunt repudiandae. Tenetur incidunt cupiditate dolore, odio possimus ab voluptatem minima! Odit non culpa ad fugit ab. Accusamus dicta beatae rem, obcaecati corrupti aut quaerat!</p>
+      <h4 id="two">two</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod asperiores unde illo labore, neque rerum. Dignissimos cum voluptatum expedita recusandae ullam suscipit ipsam in perferendis porro error autem nulla consequuntur delectus ipsa sint magnam voluptate asperiores excepturi dolor, nisi perspiciatis? Consequatur doloremque laudantium facere quae impedit nemo deleniti in delectus recusandae enim neque officia molestiae voluptatibus sed ad, maxime ratione? Fugit reprehenderit iusto voluptates, facilis, impedit delectus quis eum praesentium, expedita qui hic fuga neque nobis. Et ad necessitatibus illum blanditiis suscipit excepturi nobis autem ipsam nulla laboriosam quasi fugiat aliquid quas dolorem, fugit accusantium eaque ex neque atque ea!</p>
+      <h4 id="three">three</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum quod autem temporibus, voluptatem doloribus optio alias deleniti aperiam architecto sit rem accusamus voluptas eius facilis! Aperiam, vitae laboriosam ullam doloremque iure ut ipsam blanditiis aliquid non sunt quae voluptatem hic nisi cum. Nulla, incidunt harum perferendis provident ad odit perspiciatis quis accusamus maiores nam saepe at necessitatibus temporibus corrupti in voluptas, aut fugit quod rerum est minima esse iste! Mollitia modi officia temporibus repellat praesentium reiciendis quam officiis magnam perspiciatis nulla nobis tenetur nesciunt reprehenderit autem deserunt animi sed a quae, earum quasi! Expedita nisi nemo accusamus nesciunt ipsum!</p>
+    </div>
       </table>
   </body>
 </html>
